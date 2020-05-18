@@ -36,5 +36,12 @@ public class Main {
         byte myMaxByteValue = Byte.MAX_VALUE;
         System.out.println("Byte Minimum Value: " + myMinByteValue);
         System.out.println("Byte Maximum Value: " + myMaxByteValue);
+
+        int myTotal =(myMinIntValue / 2);
+
+        //Casting
+        byte myNewByteValue = (byte)(myMinByteValue / 2);
+
+        short myNewShortValue = (short)(myMinShortValue / 2);
     }
 }
