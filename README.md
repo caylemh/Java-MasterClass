@@ -14,3 +14,4 @@ A place to track my Java Masterclass course knowledge and files.
     2. Introduction to DiffMerge & using it.
     3. Coding Exercise 1: Speed Convertor.
     4. Coding Exercise 2: MegaByte Converter.
+    5. Coding Exercise 3: Barking Dog.
