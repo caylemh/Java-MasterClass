@@ -13,3 +13,4 @@ A place to track my Java Masterclass course knowledge and files.
     1. Learning how to create methods and how to use them.
     2. Introduction to DiffMerge & using it.
     3. Coding Exercise 1: Speed Convertor.
+    4. Coding Exercise 2: MegaByte Converter.
