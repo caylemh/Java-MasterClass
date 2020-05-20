@@ -19,8 +19,10 @@ public class DecimalComparator {
         noDec2 /= 1000.0d;
 
         // Comparing the 2 variables to check for equality to 3 decimal places
-        if (noDec1 == noDec2) {
-            return true;
-        } else return false;
+//        if (noDec1 == noDec2) {
+//            return true;
+//        } else return false;
+        // Simplified version
+        return noDec1 == noDec2;
     }
 }
