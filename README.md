@@ -16,3 +16,4 @@ A place to track my Java Masterclass course knowledge and files.
     4. Coding Exercise 2: MegaByte Converter.
     5. Coding Exercise 3: Barking Dog.
     6. Coding Exercise 4: Leap Year.
+    7. Coding Exercise 5: Decimal Comparator.
