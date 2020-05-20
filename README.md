@@ -17,3 +17,5 @@ A place to track my Java Masterclass course knowledge and files.
     5. Coding Exercise 3: Barking Dog.
     6. Coding Exercise 4: Leap Year.
     7. Coding Exercise 5: Decimal Comparator.
+    8. Coding Exercise 6: Equal Sum Checker.
+    
