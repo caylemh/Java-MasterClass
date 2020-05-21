@@ -21,4 +21,5 @@ A place to track my Java Masterclass course knowledge and files.
     9. Coding Exercise 7: Teen Number Checker.
     10. Method Overloading & Challenge.
     11. Seconds and Minutes Challenge.
+    13. Coding Exercise 8: Area Calculator.
     
