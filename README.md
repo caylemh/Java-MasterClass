@@ -23,4 +23,5 @@ A place to track my Java Masterclass course knowledge and files.
     11. Seconds and Minutes Challenge.
     12. Coding Exercise 8: Area Calculator.
     13. Coding Exercise 9: Minutes to Years & Days Calculator.
+    14. Coding Exercise 10: Equality Printer.
     
