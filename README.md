@@ -27,5 +27,6 @@ A place to track my Java Masterclass course knowledge and files.
     15. Coding Exercise 11: Playing Cat.
 ### - Section 5 - Control Flow Statements:
     1. The Switch Statement & Challenge.
-    2. Coding Exercise: Day of the Week Challenge.
+    2. Coding Challenge: Day of the Week Challenge.
+    3. Coding Exercise 12: Number in Word.
     
