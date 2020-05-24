@@ -29,4 +29,5 @@ A place to track my Java Masterclass course knowledge and files.
     1. The Switch Statement & Challenge.
     2. Coding Challenge: Day of the Week Challenge.
     3. Coding Exercise 12: Number in Word.
+    4. Coding Exercise 13: Number of Days in Month.
     
