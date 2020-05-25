@@ -32,4 +32,5 @@ A place to track my Java Masterclass course knowledge and files.
     4. Coding Exercise 13: Number of Days in Month.
     5. For Loops & Challenge.
     6. Sum 3 and 5 Challenge.
+    7. Coding Exercise 14: Sum Odd.
     
