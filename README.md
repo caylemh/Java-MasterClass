@@ -31,4 +31,5 @@ A place to track my Java Masterclass course knowledge and files.
     3. Coding Exercise 12: Number in Word.
     4. Coding Exercise 13: Number of Days in Month.
     5. For Loops & Challenge.
+    6. Sum 3 and 5 Challenge.
     
