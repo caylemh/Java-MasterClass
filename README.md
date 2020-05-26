@@ -38,3 +38,4 @@ A place to track my Java Masterclass course knowledge and files.
     10. Parsing values from a string.
     11. Reading User input & Solving Common Problems.
     12. Reading User Input Challenge.
+    13. Min and Max Challenge.
