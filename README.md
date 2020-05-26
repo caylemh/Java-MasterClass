@@ -35,4 +35,4 @@ A place to track my Java Masterclass course knowledge and files.
     7. Coding Exercise 14: Sum Odd.
     8. While & Do-While Statements + Challenge.
     9. Digit Sum Challenge.
-    
+    10. Parsing values from a string.
