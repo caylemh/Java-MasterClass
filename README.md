@@ -39,3 +39,5 @@ A place to track my Java Masterclass course knowledge and files.
     11. Reading User input & Solving Common Problems.
     12. Reading User Input Challenge.
     13. Min and Max Challenge.
+### - Section 6 - OOP Part 1 (Classes, Constructors & Inheritance):
+    1. Classes Part 1
