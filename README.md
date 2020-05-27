@@ -42,4 +42,5 @@ A place to track my Java Masterclass course knowledge and files.
 ### - Section 6 - OOP Part 1 (Classes, Constructors & Inheritance):
     1. Classes Part 1.
     2. Classes Part 2.
-    3. Coding Exercise 30 - Simple Calculator.
+    3. Coding Exercise 29 - Simple Calculator.
+    4. Coding Exercise 30 - Person.
