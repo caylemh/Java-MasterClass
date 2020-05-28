@@ -46,3 +46,4 @@ A place to track my Java Masterclass course knowledge and files.
     4. Coding Exercise 30 - Person.
     5. Constructors & Challenges.
     6. Coding Exercise 31 - Wall Area.
+    7. Inheritance.
