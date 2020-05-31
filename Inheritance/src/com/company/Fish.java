@@ -24,16 +24,16 @@ public class Fish extends Animal {
         System.out.println("Fish.moveBackFin() called...");
     }
 
-    private void swim() {
+    private void swim(int speed) {
         System.out.println("Fish.swim() called");
         moveMuscles();
         moveBackFin();
+        super.move(speed);
     }
 
     @Override
     public void move(int speed) {
         rest();
-        swim();
-        super.move(speed);
+        swim(speed);
     }
 }
