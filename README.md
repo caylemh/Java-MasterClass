@@ -47,3 +47,4 @@ A place to track my Java Masterclass course knowledge and files.
     5. Constructors & Challenges.
     6. Coding Exercise 31 - Wall Area.
     7. Inheritance.
+    8. Inheritance Challenge.
