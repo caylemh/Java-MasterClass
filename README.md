@@ -50,3 +50,5 @@ A place to track my Java Masterclass course knowledge and files.
     8. Inheritance Challenge.
     9. Coding Exercise 35 - Cylinder.
     10. Coding Exercise 36 - Pool Area.
+### - Section 7 - OOP Part 2 (Composition, Encapsulation & Polymorphism):
+    1. Composition
