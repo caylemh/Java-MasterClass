@@ -58,3 +58,4 @@ A place to track my Java Masterclass course knowledge and files.
     2. JavaFX First Project.
     3. JavaFX Hello World Program.
     4. GridPane Layout.
+    5. HBox Layout.
