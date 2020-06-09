@@ -37,6 +37,7 @@
     </Label>
     <fx:define>
         <ToggleGroup fx:id="colorToggleGroup"/>
+        <ToggleGroup fx:id="checkToggleGroup"/>
     </fx:define>
     <RadioButton GridPane.rowIndex="0" GridPane.columnIndex="2" text="Red" toggleGroup="$colorToggleGroup" selected="true"/>
     <RadioButton GridPane.rowIndex="0" GridPane.columnIndex="3" text="Blue" toggleGroup="$colorToggleGroup"/>
@@ -48,9 +49,9 @@
         <CheckBox text="Bird"/>
     </VBox>
     <HBox GridPane.rowIndex="0" GridPane.columnIndex="6">
-        <ToggleButton text="Toggle Me"/>
-        <ToggleButton text="Hello"/>
-        <ToggleButton text="Goodbye"/>
+        <ToggleButton text="Toggle Me" toggleGroup="$checkToggleGroup"/>
+        <ToggleButton text="Hello" toggleGroup="$checkToggleGroup"/>
+        <ToggleButton text="Goodbye" toggleGroup="$checkToggleGroup"/>
     </HBox>
 
 
