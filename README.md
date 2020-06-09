@@ -63,3 +63,6 @@ A place to track my Java Masterclass course knowledge and files.
     7. Other Layouts.
     8. Controls.
     9. RadioButton & CheckBox.
+    10. ComboBox & CheckBox Controls.
+    11. Slider, Spinner, ColorPicker & DatePicker Controls.
+    12. TitledPane & Accordion Controls.
