@@ -1,6 +1,10 @@
 package com.caylemh.todolist;
 
 import com.caylemh.todolist.datamodel.TodoItem;
+import javafx.fxml.FXML;
+import javafx.scene.control.ListView;
+import javafx.scene.control.SelectionMode;
+import javafx.scene.control.TextArea;
 
 import java.time.LocalDate;
 import java.time.Month;
@@ -9,6 +13,12 @@ import java.util.List;
 
 public class Controller {
     private List<TodoItem> todoItems;
+
+    @FXML
+    private ListView<TodoItem> todoListView;
+    @FXML
+    private TextArea itemDetailsTextArea;
+
 
     public void initialize() {
         TodoItem item1 = new TodoItem("Mail birthday card", "Buy a 30th birthday card for John",
@@ -19,8 +29,8 @@ public class Controller {
                 LocalDate.of(2020, Month.APRIL, 6));
         TodoItem item4 = new TodoItem("Pickup Doug at train station", "Doug is arriving on March 23 on the 5 o' clock train.",
                 LocalDate.of(2020, Month.MARCH, 22));
-        TodoItem item5 = new TodoItem("Pickup drycleaning", "Clothes should be ready by Wednesday.",
-                LocalDate.of(2020, Month.APRIL, 17));
+        TodoItem item5 = new TodoItem("Pickup Dry Cleaning", "Clothes should be ready by Wednesday.",
+                LocalDate.of(2020, Month.MAY, 17));
 
         todoItems = new ArrayList<TodoItem>();
         todoItems.add(item1);
@@ -28,5 +38,21 @@ public class Controller {
         todoItems.add(item3);
         todoItems.add(item4);
         todoItems.add(item5);
+
+        todoListView.getItems().setAll(todoItems);
+        todoListView.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
+    }
+
+    @FXML
+    public void handleClickListView() {
+        TodoItem item = todoListView.getSelectionModel().getSelectedItem();
+        //System.out.println("Selected item is " + item);
+
+        StringBuilder sb = new StringBuilder(item.getDetails());
+        sb.append("\n\n\n\n");
+        sb.append("Due: ");
+        sb.append(item.getDeadline().toString());
+
+        itemDetailsTextArea.setText(sb.toString());
     }
 }
