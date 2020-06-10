@@ -18,19 +18,19 @@
     </left>
 
     <center>
-        <VBox style="-fx-background-color: white">
+        <VBox style="-fx-background-color: #ccfcff">
             <TextArea fx:id="itemDetailsTextArea" VBox.vgrow="ALWAYS">
                 <font>
                     <Font name="Verdana" size="16"/>
                 </font>
             </TextArea>
-            <HBox>
-                <Label text="Due: " style="-fx-background-color: white">
+            <HBox alignment="CENTER">
+                <Label text="Due: " style="-fx-background-color: #ccfcff">
                     <font>
                         <Font name="Verdana bold" size="20"/>
                     </font>
                 </Label>
-                <Label fx:id="deadlineLabel" style="-fx-background-color: white">
+                <Label fx:id="deadlineLabel" style="-fx-background-color: #ccfcff">
                     <font>
                         <Font name="Verdana" size="20"/>
                     </font>
