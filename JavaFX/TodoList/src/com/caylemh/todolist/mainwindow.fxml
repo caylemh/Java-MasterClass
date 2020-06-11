@@ -36,18 +36,18 @@
         <VBox style="-fx-background-color: #ccfcff">
             <TextArea fx:id="itemDetailsTextArea" VBox.vgrow="ALWAYS" wrapText="true">
                 <font>
-                    <Font name="Verdana" size="16"/>
+                    <Font name="Calibri" size="16"/>
                 </font>
             </TextArea>
             <HBox alignment="CENTER">
                 <Label text="Due: " style="-fx-background-color: #ccfcff">
                     <font>
-                        <Font name="Verdana bold" size="20"/>
+                        <Font name="Calibri bold" size="20"/>
                     </font>
                 </Label>
                 <Label fx:id="deadlineLabel" style="-fx-background-color: #ccfcff">
                     <font>
-                        <Font name="Verdana" size="20"/>
+                        <Font name="Calibri" size="20"/>
                     </font>
                 </Label>
             </HBox>
