@@ -78,3 +78,4 @@ A place to track my Java Masterclass course knowledge and files.
     22. Add Dialog.
     22. Show Dialog & Add Dialog Controller.
     23. Bug Fix, Data Binding & Observable.
+    24. Updates (Overdue Item opacity changed ot reflect status).
