@@ -34,7 +34,7 @@
 
     <center>
         <VBox style="-fx-background-color: #ccfcff">
-            <TextArea fx:id="itemDetailsTextArea" VBox.vgrow="ALWAYS">
+            <TextArea fx:id="itemDetailsTextArea" VBox.vgrow="ALWAYS" wrapText="true">
                 <font>
                     <Font name="Verdana" size="16"/>
                 </font>

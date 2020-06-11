@@ -1,7 +1,6 @@
 package com.caylemh.todolist;
 
 import com.caylemh.todolist.datamodel.TodoData;
-import com.caylemh.todolist.datamodel.TodoItem;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -25,7 +24,7 @@ public class Main extends Application {
     }
 
     @Override
-    public void stop() throws Exception {
+    public void stop() throws Exception{
         try {
             TodoData.getInstance().storeTodoItems();
         } catch(IOException e) {
@@ -34,7 +33,7 @@ public class Main extends Application {
     }
 
     @Override
-    public void init() throws Exception {
+    public void init() throws Exception{
         try {
             TodoData.getInstance().loadTodoItems();
         } catch(IOException e) {
