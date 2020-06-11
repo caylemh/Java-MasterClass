@@ -75,3 +75,5 @@ A place to track my Java Masterclass course knowledge and files.
     19. Formatting Dates.
     20. Singletons.
     21. Save & Load TodoItems from a file.
+    22. Add Dialog.
+    22. Show Dialog & Add Dialog Controller.
