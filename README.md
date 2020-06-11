@@ -73,3 +73,5 @@ A place to track my Java Masterclass course knowledge and files.
     17. Base Interface.
     18. Add Change Listener.
     19. Formatting Dates.
+    20. Singletons.
+    21. Save & Load TodoItems from a file.
