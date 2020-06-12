@@ -1,6 +1,5 @@
 Doctors Appointment	See Dr. Smith at 123 Main Str. Bring paperwork	05 May 2020
 Finish Design Proposal.	Promise Mike I'd email the mockups.	06 April 2020
-Pickup Doug at train station.	Doug is arriving on March 23 on the 5 o' clock train.	22 March 2020
 Pickup Dry Cleaning.	Clothes should be ready by Wednesday.	17 May 2020
-New Item 1	Some other item.	11 June 2020
-Item due tomorrow	This item is going to be due tomorrow.	12 June 2020
+New Item 3	Just some random text to display.	30 June 2020
+New Item 4	Another item with some random text applied.	13 June 2020

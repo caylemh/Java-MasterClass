@@ -9,6 +9,8 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.*;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
@@ -75,11 +77,13 @@ public class Controller {
                             setText(null);
                         } else {
                             setText(item.getShortDescription());
-                            if(item.getDeadline().isBefore(LocalDate.now().plusDays(1))) {
+                            setTextFill(Color.BLUEVIOLET);
+                            setFont(Font.font("Calibri bold"));
+                            if (item.getDeadline().isBefore(LocalDate.now().plusDays(1))) {
                                 setTextFill(Color.RED);
-                                setFont(Font.font("Calibri bold"));
-                                setOpacity(0.5);
-                            } else if(item.getDeadline().equals(LocalDate.now().plusDays(1))) {
+                                setFont(Font.font("Calibri"));
+                                setOpacity(0.4);
+                            } else if (item.getDeadline().equals(LocalDate.now().plusDays(1))) {
                                 setTextFill(Color.RED);
                                 setFont(Font.font("Calibri bold"));
                             }
@@ -125,6 +129,16 @@ public class Controller {
             DialogController controller = fxmlLoader.getController();
             TodoItem newItem = controller.processResults();
             todoListView.getSelectionModel().select(newItem);
+        }
+    }
+
+    @FXML
+    public void handleKeyPressed(KeyEvent keyEvent) {
+        TodoItem selectedItem = todoListView.getSelectionModel().getSelectedItem();
+        if(selectedItem != null) {
+            if(keyEvent.getCode().equals(KeyCode.DELETE)) {
+                deleteItem(selectedItem);
+            }
         }
     }
 
