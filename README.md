@@ -82,3 +82,5 @@ A place to track my Java Masterclass course knowledge and files.
     25. Cell Factories.
     26. Context Menus.
     27. KeyEvents & Toolbars.
+    28. Sorted LIst & Toggle Button.
+    29. Filtered List.
