@@ -85,3 +85,5 @@ A place to track my Java Masterclass course knowledge and files.
     28. Sorted LIst & Toggle Button.
     29. Filtered List.
     30. CSS with JavaFX.
+    31. Transforming Nodes & Choosers.
+    32. More on Choosers & Webpages.
