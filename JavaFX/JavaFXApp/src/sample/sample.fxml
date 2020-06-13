@@ -6,14 +6,17 @@
 <?import javafx.scene.control.RadioButton?>
 <GridPane fx:controller="sample.Controller"
           xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10"
-          stylesheets="@styles.css">
+          stylesheets="@styles.css" fx:id="gridpane">
 
-    <Button text="Button 1" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+    <Button text="Open..." onAction="#handleClick" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
     <Button text="Button 2" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
     <Button id="button_3" text="Button 3" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
-    <Button text="Button 4" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+    <Button fx:id="button4" text="Button 4" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
     <Button text="Button 5" GridPane.rowIndex="0" GridPane.columnIndex="4"/>
 
     <RadioButton text="Choice 1" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+
+    <Label fx:id="label" text="JavaFX Effects" GridPane.rowIndex="1" GridPane.columnIndex="1"
+           rotate="90" onMouseExited="#handleMouseExit" onMouseEntered="#handleMouseEnter"/>
 
 </GridPane>
