@@ -9,6 +9,7 @@ import javafx.stage.DirectoryChooser;
 import javafx.stage.FileChooser;
 
 import java.io.File;
+import java.util.List;
 
 public class Controller {
     @FXML
@@ -24,11 +25,20 @@ public class Controller {
 
     @FXML
     public void handleClick() {
-//        FileChooser chooser = new FileChooser();
-        DirectoryChooser chooser = new DirectoryChooser();
-        File file = chooser.showDialog(gridpane.getScene().getWindow());
+        FileChooser chooser = new FileChooser();
+//        chooser.setTitle("Save application file");
+        chooser.getExtensionFilters().addAll(
+                new FileChooser.ExtensionFilter("Text","*.txt"),
+                new FileChooser.ExtensionFilter("PDF", "*.pdf"),
+                new FileChooser.ExtensionFilter("All Files", "*.*")
+        );
+//        DirectoryChooser chooser = new DirectoryChooser();
+        List<File> file = chooser.showOpenMultipleDialog(gridpane.getScene().getWindow());
         if(file != null) {
-            System.out.println(file.getPath());
+            for(File item: file) {
+                System.out.println(item.getPath());
+            }
+//            System.out.println(file.getPath());
         } else {
             System.out.println("Chooser was cancelled!");
         }
@@ -44,5 +54,10 @@ public class Controller {
     public void handleMouseExit() {
         label.setScaleX(1.0);
         label.setScaleY(1.0);
+    }
+
+    @FXML
+    public void handleLinkClick() {
+        System.out.println("The link was clicked");
     }
 }
