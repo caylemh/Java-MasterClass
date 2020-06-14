@@ -1,5 +1,6 @@
 package sample;
 
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.MenuItem;
 
@@ -10,6 +11,8 @@ public class Controller {
     private MenuItem editItem;
     @FXML
     private MenuItem delItem;
+    @FXML
+    private MenuItem exitProg;
 
     @FXML
     public void handleAddContact() {
@@ -24,5 +27,11 @@ public class Controller {
     @FXML
     public void handleDeleteContact() {
         System.out.println("Delete Item Clicked!");
+    }
+
+    @FXML
+    public void handleExit() {
+        System.out.println("Exiting Program!");
+        Platform.exit();
     }
 }

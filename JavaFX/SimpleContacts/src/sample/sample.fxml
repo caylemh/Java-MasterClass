@@ -23,7 +23,7 @@
                     <MenuItem fx:id="editItem" onAction="#handleEditContact" text="Edit Contact..." />
                     <MenuItem fx:id="delItem" onAction="#handleDeleteContact" text="Delete Contact..." />
                     <SeparatorMenuItem />
-                    <MenuItem text="Exit" />
+                    <MenuItem fx:id="exitProg" onAction="#handleExit" text="Exit" />
                 </Menu>
             </MenuBar>
         </HBox>
