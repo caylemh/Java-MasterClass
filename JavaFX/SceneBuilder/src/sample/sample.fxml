@@ -2,6 +2,7 @@
 
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
 <?import javafx.scene.layout.*?>
 
 <GridPane alignment="center" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
@@ -15,15 +16,24 @@
       <RowConstraints />
    </rowConstraints>
    <children>
-      <Label text="My Label" />
+      <Label fx:id="label" text="My Label" />
       <HBox spacing="5.0" GridPane.rowIndex="1">
          <children>
-            <Button mnemonicParsing="false" text="OK">
+            <Button mnemonicParsing="false" onAction="#handleAction" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: blue;" text="OK">
                <HBox.margin>
                   <Insets />
-               </HBox.margin></Button>
-            <Button mnemonicParsing="false" text="Cancel" />
-            <Button mnemonicParsing="false" text="Help" />
+               </HBox.margin>
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: blue;" text="Cancel">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: blue;" text="Help">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
          </children>
          <GridPane.margin>
             <Insets bottom="10.0" />
