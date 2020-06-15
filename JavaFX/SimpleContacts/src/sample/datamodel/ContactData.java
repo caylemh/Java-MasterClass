@@ -1,8 +1,7 @@
 package sample.datamodel;
 
+import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import sample.datamodel.Contact;
-
 import javax.xml.stream.XMLEventFactory;
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLEventWriter;
@@ -32,11 +31,13 @@ public class ContactData {
 
     private ObservableList<Contact> contacts;
 
-    public ContactData() {
-        // *** initialize the contacts list here ***
-    }
+    public ContactData() { contacts = FXCollections.observableArrayList(); }
 
-    // *** Add methods to add/delete/access contacts here ***
+    public ObservableList<Contact> getContacts() { return contacts; }
+
+    public void addContact(Contact item) { contacts.add(item); }
+
+    public void deleteContact(Contact item) { contacts.remove(item); }
 
     public void loadContacts() {
         try {
@@ -55,7 +56,7 @@ public class ContactData {
                     StartElement startElement = event.asStartElement();
                     // If we have a contact item, we create a new contact
                     if (startElement.getName().getLocalPart().equals(CONTACT)) {
-// EDITTED BY ME!!!                       contact = new Contact();
+                        contact = new Contact();
                         continue;
                     }
 

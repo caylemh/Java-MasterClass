@@ -1,47 +1,46 @@
 package sample.datamodel;
 
+import javafx.beans.property.SimpleStringProperty;
+
 public class Contact {
-    private String first_name;
-    private String last_name;
-    private String phone_number;
-    private String notes;
+    private final SimpleStringProperty firstName = new SimpleStringProperty("");
+    private final SimpleStringProperty lastName = new SimpleStringProperty("");
+    private final SimpleStringProperty phoneNumber = new SimpleStringProperty("");
+    private final SimpleStringProperty notes = new SimpleStringProperty("");
 
-    public Contact(String first_name, String last_name, String phone_number, String notes) {
-        this.first_name = first_name;
-        this.last_name = last_name;
-        this.phone_number = phone_number;
-        this.notes = notes;
+    public Contact() {
     }
 
-    public String getFirstName() {
-        return first_name;
+    public Contact(String firstName, String lastName, String phoneNumber, String notes) {
+        this.firstName.set(firstName);
+        this.lastName.set(lastName);
+        this.phoneNumber.set(phoneNumber);
+        this.notes.set(notes);
     }
 
-    public void setFirstName(String first_name) {
-        this.first_name = first_name;
-    }
+    public final String getFirstName() { return firstName.get(); }
 
-    public String getLastName() {
-        return last_name;
-    }
+    public final void setFirstName(String firstName) { this.firstName.set(firstName); }
 
-    public void setLastName(String last_name) {
-        this.last_name = last_name;
-    }
+    public final String getLastName() { return lastName.get(); }
 
-    public String getPhoneNumber() {
-        return phone_number;
-    }
+    public final void setLastName(String lastName) { this.lastName.set(lastName); }
 
-    public void setPhoneNumber(String phone_number) {
-        this.phone_number = phone_number;
-    }
+    public final String getPhoneNumber() { return phoneNumber.get(); }
 
-    public String getNotes() {
-        return notes;
-    }
+    public final void setPhoneNumber(String phoneNumber) { this.phoneNumber.set(phoneNumber); }
 
-    public void setNotes(String notes) {
-        this.notes = notes;
+    public final String getNotes() { return notes.get(); }
+
+    public final void setNotes(String notes) { this.notes.set(notes); }
+
+    @Override
+    public String toString() {
+        return "Contact{" +
+                "firstName=" + firstName +
+                ", lastName=" + lastName +
+                ", phoneNumber=" + phoneNumber +
+                ", notes=" + notes +
+                '}';
     }
 }
