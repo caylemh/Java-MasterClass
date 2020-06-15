@@ -88,4 +88,4 @@ A place to track my Java Masterclass course knowledge and files.
     31. Transforming Nodes & Choosers.
     32. More on Choosers & Webpages.
     33. Introduction to SceneBuilder.
-    34. JavaFX Challenge Part 1.
+    34. JavaFX Challenge.
