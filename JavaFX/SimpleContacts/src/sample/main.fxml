@@ -4,20 +4,18 @@
 <?import javafx.scene.control.cell.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane fx:id="mainPanel" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.2-internal" fx:controller="sample.Controller">
+<BorderPane fx:id="mainPanel" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
 
     <top>
-        <HBox>
-            <MenuBar>
-                <Menu text="Contacts...">
-                    <MenuItem onAction="#showAddContactDialog" text="Add Contact..." />
-                    <MenuItem onAction="#handleEditContact" text="Edit Contact..." />
-                    <MenuItem onAction="#handleDeleteContact" text="Delete Contact..." />
-                    <SeparatorMenuItem />
-                    <MenuItem onAction="#handleExit" text="Exit" />
-                </Menu>
-            </MenuBar>
-        </HBox>
+        <MenuBar>
+            <Menu text="Contacts...">
+                <MenuItem onAction="#showAddContactDialog" text="Add Contact..." />
+                <MenuItem onAction="#showEditContact" text="Edit Contact..." />
+                <MenuItem onAction="#handleDeleteContact" text="Delete Contact..." />
+                <SeparatorMenuItem />
+                <MenuItem onAction="#handleExit" text="Exit" />
+            </Menu>
+        </MenuBar>
     </top>
 
    <center>
