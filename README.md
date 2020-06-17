@@ -53,6 +53,7 @@ A place to track my Java Masterclass course knowledge and files.
 ### - Section 7 - OOP Part 2 (Composition, Encapsulation & Polymorphism):
     1. Composition.
     2. Composition Challenge.
+    3. Encapsulation.
 ### - Section 13 - JavaFX:
     1. Setup & Configuring JavaFX for JDK 11.
     2. JavaFX First Project.
