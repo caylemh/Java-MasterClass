@@ -54,6 +54,7 @@ A place to track my Java Masterclass course knowledge and files.
     1. Composition.
     2. Composition Challenge.
     3. Encapsulation.
+    4. Encapsulation Challenge - Printer
 ### - Section 13 - JavaFX:
     1. Setup & Configuring JavaFX for JDK 11.
     2. JavaFX First Project.
