@@ -55,6 +55,7 @@ A place to track my Java Masterclass course knowledge and files.
     2. Composition Challenge.
     3. Encapsulation & Challenge.
     4. Polymorphism & Challenge.
+    5. OOP Master Challenge - Burger.
 ### - Section 13 - JavaFX:
     1. Setup & Configuring JavaFX for JDK 11.
     2. JavaFX First Project.
