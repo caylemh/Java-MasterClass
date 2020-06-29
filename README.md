@@ -60,6 +60,7 @@ A place to track my Java Masterclass course knowledge and files.
     1. Arrays & Challenge Exercise.
     2. Reference Vs Value Types.
     3. Min Element Challenge.
+    4. Reverse Array Challenge.
 ### - Section 13 - JavaFX:
     1. Setup & Configuring JavaFX for JDK 11.
     2. JavaFX First Project.
