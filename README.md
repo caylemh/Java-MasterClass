@@ -58,6 +58,8 @@ A place to track my Java Masterclass course knowledge and files.
     5. OOP Master Challenge - Burger.
 ### - Section 8 - Arrays, Java inbuilt Lists, Autoboxing & Unboxing:
     1. Arrays & Challenge Exercise.
+    2. Reference Vs Value Types.
+    3. Min Element Challenge.
 ### - Section 13 - JavaFX:
     1. Setup & Configuring JavaFX for JDK 11.
     2. JavaFX First Project.
