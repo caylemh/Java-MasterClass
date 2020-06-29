@@ -11,13 +11,12 @@ public class Case {
         this.dimensions = dimensions;
     }
 
-    public void presPowerButton() {
+    // Method to power on the case
+    public void pressPowerButton() {
         System.out.println("Power button pressed!");
     }
 
-    public String getModel() {
-        return model;
-    }
+    public String getModel() { return model; }
 
     public String getManufacturer() {
         return manufacturer;
