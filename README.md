@@ -56,6 +56,8 @@ A place to track my Java Masterclass course knowledge and files.
     3. Encapsulation & Challenge.
     4. Polymorphism & Challenge.
     5. OOP Master Challenge - Burger.
+### - Section 8 - Arrays, Java inbuilt Lists, Autoboxing & Unboxing:
+    1. Arrays & Challenge Exercise.
 ### - Section 13 - JavaFX:
     1. Setup & Configuring JavaFX for JDK 11.
     2. JavaFX First Project.
