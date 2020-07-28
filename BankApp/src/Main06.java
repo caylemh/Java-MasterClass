@@ -1,6 +1,8 @@
 public class Main06 {
     public static void main(String[] args) {
         Bank bank = new Bank("Standard Bank");
+        System.out.println("Welcome to " + bank.getName());
+
         bank.addBranch("Melville");
         bank.addCustomer("Melville", "Caylem",10.00);
         bank.addCustomer("Melville", "Mike",100.00);
@@ -18,7 +20,7 @@ public class Main06 {
         bank.addCustomerTransaction("Melville", "James", 200.25);
 
         bank.listCustomers("Melville", false);
-        bank.listCustomers("JHB", false);
+        bank.listCustomers("JHB", true);
 
         bank.addBranch("Roodepoort");
 
@@ -26,7 +28,7 @@ public class Main06 {
             System.out.println("\nError, Roodepoort branch does not exist!");
         }
 
-        if(!bank.addBranch("JHB")) {
+        if(bank.addBranch("JHB")) {
             System.out.println("JHB Branch already exists!");
         }
     }

@@ -9,6 +9,10 @@ public class Bank {
         this.branches = new ArrayList<Branch>();
     }
 
+    public String getName() {
+        return name;
+    }
+
     public boolean addBranch(String branchName) {
         if(findBranch(branchName) == null) {
             this.branches.add(new Branch(branchName));
