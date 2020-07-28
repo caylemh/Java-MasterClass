@@ -63,6 +63,7 @@ A place to track my Java Masterclass course knowledge and files.
 4. Reverse Array Challenge.
 5. Lists & ArrayLists.
 6. *ArrayList* Challenge.
+7. Banking App Challenge.
 ### Section 13 - JavaFX:
 1. Setup & Configuring JavaFX for JDK 11.
 2. JavaFX First Project.
