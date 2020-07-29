@@ -23,7 +23,7 @@ public class Demo {
 //        placesToVisit.add("Bora Bora");
 //        placesToVisit.add("Norway");
 
-//        printList(placesToVisit);
+        printList(placesToVisit);
 //        addInOrder(placesToVisit, "Norway");
 //        addInOrder(placesToVisit, "St. Louis");
 //        printList(placesToVisit);

@@ -92,6 +92,7 @@ A place to track my Java Masterclass course knowledge and files.
 5. Lists & ArrayLists.
 6. *ArrayList* Challenge.
 7. Banking App Challenge.
+8. *LinkedLists* & their implementation and features.
 </details>
 
 ### Section 13 - JavaFX:
